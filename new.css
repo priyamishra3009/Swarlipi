@@ -1,0 +1,39 @@
+#about - container .about - img {
+    width : 60 % ;
+    }
+    /* # about - container .about - img img {
+    width : 100 % ;
+    } */new
+    # about - container .about - text {
+    width : 40 % ;
+    padding : 60px ;
+    }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////
+
+#about - container .about - text .about - te {
+    display : flex ;
+    justify - content : space - between ;
+    align - items : flex - start ;
+    }
+    # about - container .about - text .about - fe img {
+    width : 50px ;
+    background - size : cover ;
+    background - position : center ;
+    margin - right : 20px ;
+    }
+
+
+
+    @media ( max - width : 769px ) {
+    nav {
+    padding : 15px 20px ;
+    z - index : 9999 ;
+    }
+    nav img {
+    width : 130px ;
+    }
+    # menu - btn {
+    display : initial ;
+    }
+    # menu - close {
